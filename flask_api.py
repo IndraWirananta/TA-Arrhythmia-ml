@@ -3,7 +3,7 @@ import numpy as np
 from catboost import CatBoostClassifier
 
 model = CatBoostClassifier()
-model.load_model("catboost_model", format='cbm')
+model.load_model("catboost_model_2", format='cbm')
 app = Flask(__name__)
 @app.route('/')
 def index():
